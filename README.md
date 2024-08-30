@@ -3,6 +3,17 @@
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
+To run the site locally, use the following command:
+```
+bundle exec jekyll s
+```
+After a few seconds, the local server will be available at http://127.0.0.1:4000.
+
+
+
+
+
+
 When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
 `_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
 from the theme's gem. If you have ever installed this theme gem, you can use the command
