@@ -8,7 +8,7 @@ tags: [Table Chart]:
 
 #  Table Chart
 
- ## Q:
+## Q:
 
 The table below give information about sales of Fairtrade-labelled coffee and bananas in 1999 and 2004 in five European countries. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.
 
