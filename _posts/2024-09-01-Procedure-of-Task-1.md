@@ -42,9 +42,9 @@ Q : The table below shows **the proportion of** different categories of families
 
 ### e.g.
 
-1. **It is clear that** between 2006 and 2010 the **main reason** why people used their mobile phones was to make calls. However, during the same period there was a marked increase in the popularity of other mobile features, with the most dramatic increase being seen in the use of mobiles to search the internet.
+1. **It is clear that** between 2006 and 2010 the **main reason** why people used their mobile phones was to make calls. However, during the same period there was a *marked increase* in the popularity of other mobile features, *with the most dramatic increase being seen in the use of mobiles to search the internet.*
 2. It is noticeable that the vast majority of students are able to speak at least one foreign language, as well as English. We can also see that Spanish is the most widely spoken second language among the surveyed group of students.
-3. While the figures of the imprisonment fluctuated over the period shown, it is clear that the United States had the highest number of prisoners overall. Great Britain, on the other hand, had the lowest number of prisoners for the majority of the period.
+3. While the figures of the *imprisonment fluctuated over the period shown*, it is clear that the United States had the highest number of prisoners overall. Great Britain, on the other hand, had the lowest number of prisoners for the majority of the period.
 4. It is clear that English homes use around double the amount of electricity in the winter compared to the summer. Throughout the year, just over half of the electricity consumed by English households is used for heating rooms and water.
 
 
@@ -73,9 +73,9 @@ Q : The table below shows **the proportion of** different categories of families
 
 ### e.g.
 
-People in Britain spent just over 170,000 pounds on photographic film, which is the highest figure shown on the chart. By contrast, Germans were the lowest overall spenders, with roughly the same figures （just under 150,000 pounds）for each of the six products.
+People in Britain spent just over 170,000 pounds on photographic film, *which is the highest figure shown on the chart.* By contrast, Germans were the lowest overall spenders, with roughly the same figures （just under 150,000 pounds）for each of the six products.
 
-The figures for spending on toys were the same in both France and Italy. at nearly 160,000. However, while French people spent more than Italians on photographic film and CDs, Italians paid out more for personal stereos, tennis racquets and perfumes. The amount spent by French people on tennis racquets, around 145,000 pounds, is the lowest figure shown on the chart.
+The figures for spending on toys were the same in both France and Italy, at nearly 160,000. However, *while* French people spent more than Italians on photographic film and CDs, Italians paid out more for personal stereos, tennis racquets and perfumes. The amount spent by French people on tennis racquets, around 145,000 pounds, *is the lowest figure shown on the chart.*
 
 
 
