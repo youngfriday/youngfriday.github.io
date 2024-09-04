@@ -3,7 +3,7 @@ title: Table Chart
 author: young
 date: 2024-09-04 :00 +0800
 categories: [IELTS, Writing]
-tags: [Table Chart]:
+tags: [Table Chart]
 ---
 
 #  Table Chart
