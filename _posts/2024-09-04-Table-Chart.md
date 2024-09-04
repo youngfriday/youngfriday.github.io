@@ -1,7 +1,7 @@
 ---
 title: Table Chart
 author: young
-date: 2024-09-04 :00 +0800
+date: 2024-09-04 23:06:00 +0800
 categories: [IELTS, Writing]
 tags: [Table Chart]
 ---
