@@ -116,7 +116,8 @@ $$
 \begin{equation}\begin{split} 
 H(P, Q) = - \sum_{x=0,1} P(x) \log Q(x)\\
 =-[P(1)\log Q(1)+P(0)\log Q(0)]\\
-=-[P(1)\log{\hat{x}}+P(0)\log{(1-\hat{x})}]
+=-[P(1)\log{\hat{x}}+P(0)\log{(1-\hat{x})}]\\
+=-[\hat{x}\log{\hat{x}}+(1-\hat{x})\log{(1-\hat{x})}]
 \end{split}\end{equation}
 $$
 
@@ -131,7 +132,7 @@ $$
 
 - **信息增益**：KL散度可以理解为使用分布 $Q$ 来近似分布 $P$ 时，所增加的平均信息量。它表示在这种不完美的近似中，描述真实事件所需的额外“开销”。
 
-- **不对称性**：KL散度是一个**非对称**度量，意味着 D_{KL}(P||Q) 不等于 D_{KL}(Q || P) 。（原谅我这里mathjax无法渲染）这表明用 $P$ 近似 $Q$ 与用 $Q$ 近似 $P$ 的结果是不同的。
+- **不对称性**：KL散度是一个**非对称**度量，意味着D_{KL}(P||Q)不等于D_{KL}(Q||P)。（原谅我这里mathjax无法渲染）这表明用 $P$ 近似 $Q$ 与用 $Q$ 近似 $P$ 的结果是不同的。
 
 #### How to Understand
 
