@@ -44,7 +44,7 @@ H(P) =  \sum_{x \in X} P(x) \log {\frac{1}{P\left( x \right)}}= \sum_{x \in X} P
 $$
 将$\log {\frac{1}{P\left( x \right)}}$理解为确定一个事件所需要的bit数，比如一个袋子里面有8个球，其中7个是白球，剩下1个是黑球。那么随机摸到一个球是黑球的概率就是$\frac{1}{8}$。我们此时需要最快地找到黑球，那使用二分法，每次将球分成一半，留下有黑球的一半，$8\rightarrow 4 \rightarrow 2 \rightarrow 1$，可见最终需要$\log _28=3$次即可确定黑球。我们认为 $\log {\frac{1}{P\left( x \right)}}$ 即是确定对应颜色球所需要的操作次数，此时乘上对应的 $P(x)$ 求和就是确定所有颜色球所需次数的期望，称之为熵。
 
-这部分的具体理解方式可以参考  [Peiwen-如何通俗的解释交叉熵与相对熵？] https://www.zhihu.com/question/41252833/answer/195901726 
+这部分的具体理解方式可以参考  [Peiwen-如何通俗的解释交叉熵与相对熵？](https://www.zhihu.com/question/41252833/answer/195901726) 
 
 ### Cross-Entropy
 
@@ -60,7 +60,7 @@ $$
 
 这里可以使用上面在Entropy中模球的理解方式，无非就是现在的摸球次数变为 $\log {\frac{1}{Q\left( x \right)}}$，显然由于 $Q(x)$ 不准确的缘故，这个摸球次数显然是不准确的，整体意义上势必会带来摸球次数期望的增加。
 
-还有一个比较巧妙的理解方式，来源(https://www.zhihu.com/question/65288314/answer/849294209)，当然我对答主的表述方式做了一些改进，以使得其更准确更好理解。
+还有一个比较巧妙的理解方式，来源<https://www.zhihu.com/question/65288314/answer/849294209>，当然我对答主的表述方式做了一些改进，以使得其更准确更好理解。
 
 我们可以从$MLE$（极大似然估计）的角度来理解。现在有一个变量 $x$ ，我们对它的模型预测分布为 $Q(x)$ ，我们就对它做 $N$ 次独立同分布的实验（我们让 $N\rightarrow \infty $），对应 $x$ 的观测次数为 $N(x)$ 。如此一来，它的似然值即可写成：
 $$
@@ -107,7 +107,7 @@ D_{KL}(P || Q) = \sum_{x \in X} P(x) \log \frac{P(x)}{Q(x)}
 $$
 
 - **信息增益**：KL散度可以理解为使用分布 $Q$ 来近似分布 $P$ 时，所增加的平均信息量。它表示在这种不完美的近似中，描述真实事件所需的额外“开销”。
-- **不对称性**：KL散度是一个**非对称**度量，意味着 $D_{KL}(P || Q) \ne D_{KL}(Q || P)$。这表明用  $P$ 近似 $Q$ 与用 $Q$ 近似 $P$ 的结果是不同的。
+- **不对称性**：KL散度是一个**非对称**度量，意味着 $D_{KL}(P || Q) \ne D_{KL}(Q || P)$ 。这表明用  $P$ 近似 $Q$ 与用 $Q$ 近似 $P$ 的结果是不同的。
 
 #### How to Understand
 
@@ -125,6 +125,6 @@ KL散度可以被看作是衡量两个分布相似性的一种方法，但它**�
 
 # Reference
 
-[1]: https://www.zhihu.com/question/65288314/answer/849294209	"灵剑-为什么交叉熵（cross-entropy）可以用于计算代价？"
-[2]: https://www.zhihu.com/question/41252833/answer/195901726	"Peiwen-如何通俗的解释交叉熵与相对熵？"
+1. [Peiwen-如何通俗的解释交叉熵与相对熵](https://www.zhihu.com/question/41252833/answer/195901726)    <https://www.zhihu.com/question/41252833/answer/195901726>
+2. [为什么交叉熵（cross-entropy）可以用于计算代价？](https://www.zhihu.com/question/65288314/answer/849294209)  <https://www.zhihu.com/question/65288314/answer/849294209>
 
