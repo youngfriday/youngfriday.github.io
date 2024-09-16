@@ -113,12 +113,9 @@ $$
 
 
 $$
-% \begin{equation}\begin{split}
 H(P, Q) = - \sum_{x=0,1} P(x) \log Q(x)\\\\
 =-[P(1)\log Q(1)+P(0)\log Q(0)]\\\\
 =-[P(1)\log{\hat{x}}+P(0)\log{(1-\hat{x})}]\\\\
-=-[\hat{x}\log{\hat{x}}+(1-\hat{x})\log{(1-\hat{x})}]
-% \end{split}\end{equation}
 $$
 
 
@@ -145,7 +142,7 @@ H\left( P,Q \right) =H\left( P \right) +D_{KL}\left( P||Q \right)
 $$
 
 - $H(P)$ 是真实分布的熵，表示用分布 $P$ 编码数据的最小信息量
-- $D_{KL}\left( P||Q \right)$ 表示使用 $Q$ 而非 $P$ 编码数据时，额外增加的信息量
+$D_{KL}\left( P||Q \right)$ 表示使用 $Q$ 而非 $P$ 编码数据时，额外增加的信息量
 
 KL散度可以被看作是衡量两个分布相似性的一种方法，但它**并不是一个对称的距离度量**。例如，如果我们用 $Q$ 来逼近 $P$，那么KL散度就会告诉我们：从 $P$ 转到 $Q$ 会损失多少信息。若 $P$ 和 $Q$ 越相似，KL散度越小；**当 $P$ 和 $Q$ 完全一致时，KL散度等于 0**。
 
