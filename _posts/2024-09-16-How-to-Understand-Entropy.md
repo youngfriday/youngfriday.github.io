@@ -4,6 +4,7 @@ author: young
 date: 2024-09-16 12:45:00 +0800
 categories: [Math, AI]
 tags: [Entropy]
+math: true
 ---
 
 # How to Understand Entropy
