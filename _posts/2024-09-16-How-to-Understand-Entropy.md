@@ -44,6 +44,7 @@ $$
 $$
 H(P) =  \sum_{x \in X} P(x) \log {\frac{1}{P\left( x \right)}}= \sum_{x \in X} P(x) I(X)
 $$
+
 将$\log {\frac{1}{P\left( x \right)}}$理解为确定一个事件所需要的bit数，比如一个袋子里面有8个球，其中7个是白球，剩下1个是黑球。那么随机摸到一个球是黑球的概率就是$\frac{1}{8}$。我们此时需要最快地找到黑球，那使用二分法，每次将球分成一半，留下有黑球的一半，$8\rightarrow 4 \rightarrow 2 \rightarrow 1$，可见最终需要$\log _28=3$次即可确定黑球。我们认为 $\log {\frac{1}{P\left( x \right)}}$ 即是确定对应颜色球所需要的操作次数，此时乘上对应的 $P(x)$ 求和就是确定所有颜色球所需次数的期望，称之为熵。
 
 这部分的具体理解方式可以参考  [Peiwen-如何通俗的解释交叉熵与相对熵？](https://www.zhihu.com/question/41252833/answer/195901726) 
@@ -70,30 +71,35 @@ $$
 $$
 L=\prod_x^{}{Q\left( x \right) ^{N\left( x \right)}}
 $$
+
 取对数，为了统一形式，我使用 $\log$
 
 
 $$
 \log L=\sum_x^{}{N\left( x \right) \log Q\left( x \right)}
 $$
+
 然而，这个式子还有两个缺点，第一它是个负数，第二，它的数值和样本数量有关，所以我们进行归一化并取相反数，由于 $N\rightarrow \infty$ ，由大数定律，$P(x)$即为真实概率值，此时的形式已经和交叉熵一样了：
 
 
 $$
 -\sum_x^{}{\frac{N\left( x \right)}{N}\log Q\left( x \right)}=-\sum_x^{}{P\left( x \right) \log Q\left( x \right)}
 $$
+
 因此可以看出，交叉熵最小的实质就是似然值最大，可以证明，当交叉熵最小时一定有 $Q(x)=P(x)$ ，使用拉格朗日乘子法：
 
 
 $$
 W=-\sum_x^{}{P\left( x \right) \log Q\left( x \right)}+\lambda \left( \sum_x^{}{P\left( x \right)}-1 \right)
 $$
+
 对 $P(x)$ 求偏导得：
 
 
 $$
 -\frac{P\left( x \right)}{Q\left( x \right)}+\lambda =0
 $$
+
 即 $P(X)$ 与 $Q(x)$ 对应成比例，而又由二者的归一化条件得 $Q(x)=P(x)$ 时取得极大似然，也是最小交叉熵。
 
 #### Binary Cross-Entropy
@@ -107,12 +113,12 @@ $$
 
 
 $$
-\begin{equation}\begin{split}
-H(P, Q) = - \sum_{x=0,1} P(x) \log Q(x)\\
-=-[P(1)\log Q(1)+P(0)\log Q(0)]\\
-=-[P(1)\log{\hat{x}}+P(0)\log{(1-\hat{x})}]\\
+% \begin{equation}\begin{split}
+H(P, Q) = - \sum_{x=0,1} P(x) \log Q(x)\\\\
+=-[P(1)\log Q(1)+P(0)\log Q(0)]\\\\
+=-[P(1)\log{\hat{x}}+P(0)\log{(1-\hat{x})}]\\\\
 =-[\hat{x}\log{\hat{x}}+(1-\hat{x})\log{(1-\hat{x})}]
-\end{split}\end{equation}
+% \end{split}\end{equation}
 $$
 
 
@@ -138,8 +144,8 @@ $$
 H\left( P,Q \right) =H\left( P \right) +D_{KL}\left( P||Q \right)
 $$
 
-- \$$ H(P)$$ 是真实分布的熵，表示用分布 \$$P$$ 编码数据的最小信息量
-- \$$ D_{KL}(P || Q) $$ 表示使用 \$$ Q $$ 而非 \$$ P $$ 编码数据时，额外增加的信息量
+- $H(P)$ 是真实分布的熵，表示用分布 $P$ 编码数据的最小信息量
+- $D_{KL}(P || Q)$ 表示使用 $Q$ 而非 $P$ 编码数据时，额外增加的信息量
 
 KL散度可以被看作是衡量两个分布相似性的一种方法，但它**并不是一个对称的距离度量**。例如，如果我们用 $Q$ 来逼近 $P$，那么KL散度就会告诉我们：从 $P$ 转到 $Q$ 会损失多少信息。若 $P$ 和 $Q$ 越相似，KL散度越小；**当 $P$ 和 $Q$ 完全一致时，KL散度等于 0**。
 
