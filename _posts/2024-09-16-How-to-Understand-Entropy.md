@@ -117,7 +117,7 @@ $$
 H(P, Q) = - \sum_{x=0,1} P(x) \log Q(x)\\
 =-[P(1)\log Q(1)+P(0)\log Q(0)]\\
 =-[P(1)\log{\hat{x}}+P(0)\log{(1-\hat{x})}]\\
-=-[\hat{x}\log{\hat{x}}+(1-\hat{x})\log{(1-\hat{x})}]
+=-[x\log{\hat{x}}+(1-x)\log{(1-\hat{x})}]
 \end{split}\end{equation}
 $$
 
@@ -153,8 +153,6 @@ KL散度可以被看作是衡量两个分布相似性的一种方法，但它**�
 
 # Reference
 
-1. [Peiwen-如何通俗的解释交叉熵与相对熵？](https://www.zhihu.com/question/41252833/answer/195901726)  <https://www.zhihu.com/question/41252833/answer/195901726>
-2. [灵剑-为什么交叉熵（cross-entropy）可以用于计算代价？](https://www.zhihu.com/question/65288314/answer/849294209)   <https://www.zhihu.com/question/65288314/answer/849294209>
-
-
+1. [Peiwen-如何通俗的解释交叉熵与相对熵？](https://www.zhihu.com/question/41252833/answer/195901726) 
+2. [灵剑-为什么交叉熵（cross-entropy）可以用于计算代价？](https://www.zhihu.com/question/65288314/answer/849294209)
 
