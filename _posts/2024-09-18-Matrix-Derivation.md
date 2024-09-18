@@ -70,19 +70,19 @@ $$
 4. 迹：$d\text{tr}(X)=\text{tr}(dX)$；
 
 5. 逆：$dX^{-1}=-X^{-1}dXX^{-1}$，证明如下
-6. 
+   
    $$
    d(XX^{-1})=dI=(dX)X^{-1}+Xd(X^{-1})=0\\
    \Rightarrow dX^{-1}=-X^{-1}dXX^{-1}
    $$
 
-7. 行列式：$d\left| X \right|=\mathrm{tr}\left( X^*dX \right) $
+6. 行列式：$d|X|=\mathrm{tr}\left( X^*dX \right) $
 
    若$X$可逆，则$d|X|=|X|\operatorname{tr}\left(X^{-1} d X\right)$
 
-8. 逐元素乘法：$d\left(X\odot Y\right)=d X\odot Y+X\odot dY$
+7. 逐元素乘法：$d\left(X\odot Y\right)=d X\odot Y+X\odot dY$
 
-9. 逐元素函数：$d\sigma(X)=\sigma^{\prime}(X)\odot dX$，其中$\sigma^{\prime}(X)=[\sigma^{\prime}(X_{ij})]$
+8. 逐元素函数：$d\sigma(X)=\sigma^{\prime}(X)\odot dX$，其中$\sigma^{\prime}(X)=[\sigma^{\prime}(X_{ij})]$
 
 ## Trace Tricks
 
