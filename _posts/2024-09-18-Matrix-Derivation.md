@@ -70,15 +70,15 @@ $$
 4. 迹：$d\text{tr}(X)=\text{tr}(dX)$；
 
 5. 逆：$dX^{-1}=-X^{-1}dXX^{-1}$，证明如下
-   
+
    $$
    d(XX^{-1})=dI=(dX)X^{-1}+Xd(X^{-1})=0\\
    \Rightarrow dX^{-1}=-X^{-1}dXX^{-1}
    $$
 
-6. 行列式：$d|X|=\mathrm{tr}\left( X^*dX \right) $
+6. 渲染失败了换图片吧：
 
-   若$X$可逆，则$d|X|=|X|\operatorname{tr}\left(X^{-1} d X\right)$
+   ![](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240918122353029.png)
 
 7. 逐元素乘法：$d\left(X\odot Y\right)=d X\odot Y+X\odot dY$
 
