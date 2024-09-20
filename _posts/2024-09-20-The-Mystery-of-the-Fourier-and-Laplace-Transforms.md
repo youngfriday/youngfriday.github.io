@@ -184,11 +184,16 @@ $$
 
 从上面可以看出，如果把$f(t)e^{-\alpha t}$看做一个函数整体的话，拉普拉斯变换还是可以通过后面的$e^{-\omega t}$实现对$\cos(\omega t)$和$\sin(\omega t)$的scan。现在需要关注的是多出来的$e^{-\alpha t}$是干嘛的。
 
-其实很简单，$e^{-\alpha t}$仍然起到一个scanner的作用，只不过这次scan的对象是——$e^{\alpha t}$！虽然傅里叶很好用，可以完美地对 $\sin$ 与 $\cos$ 进行扫描，但追求完美的数学家肯定不满足于此，寻思着如果同时还能对 $e^{\alpha t}$ 进行扫描该多好——直接在积分时再乘上一个 $e^{-\alpha t}$ ！我们来分析一下，这里还是使用上面的例子，$f(t)=e^{-t}\sin t,(when \ t>0,else\ f(t)=0)$：
+其实很简单，$e^{-\alpha t}$仍然起到一个scanner的作用，只不过这次scan的对象是——$e^{\alpha t}$！虽然傅里叶很好用，可以完美地对 $\sin$ 与 $\cos$ 进行扫描，但追求完美的数学家肯定不满足于此，寻思着如果同时还能对 $e^{\alpha t}$ 进行扫描该多好——直接在积分时再乘上一个 $e^{-\alpha t}$ ！我们来分析一下，这里还是使用上面的例子，
+
+$$
+f(t)=e^{-t}\sin t,(when \ t>0,else\ f(t)=0)
+$$
 
 $$
 F\left( s \right) ==\int_0^{+\infty}{\left[ e^{-t}\sin t\ e^{-\alpha t} \right] e^{-i\omega t}dt}
 $$
+
 
 <img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240920181547911.png" alt="image-20240920181547911" style="zoom:60%;" />
 
