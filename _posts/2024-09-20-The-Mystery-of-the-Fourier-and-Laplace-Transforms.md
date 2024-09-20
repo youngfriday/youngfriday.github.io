@@ -191,7 +191,7 @@ f(t)=e^{-t}\sin t,(when \ t>0,else\ f(t)=0)
 $$
 
 $$
-F\left( s \right) ==\int_0^{+\infty}{\left[ e^{-t}\sin t\ e^{-\alpha t} \right] e^{-i\omega t}dt}
+F\left( s \right) =\int_0^{+\infty}{\left[ e^{-t}\sin t\ e^{-\alpha t} \right] e^{-i\omega t}dt}
 $$
 
 
