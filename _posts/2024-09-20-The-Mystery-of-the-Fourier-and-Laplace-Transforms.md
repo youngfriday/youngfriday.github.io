@@ -114,8 +114,8 @@ $$
 
 $$
 F\left( \omega \right) =\mathscr{F} \left[ f\left( t \right) \right] =\int_{-\infty}^{+\infty}{f\left( t \right) e^{-i\omega t}dt}=\int_{-\infty}^{+\infty}{f\left( t \right) [\cos (\omega t) -i\sin (\omega t)]dt}
-
 $$
+
 这个时候就会有人心里开始犯嘀咕了，我这样轻易的把两个scanner叠加在一起了，它们两个之间的结果不会相互干扰吗？巧了，好就好在，还真不会！还是举个最简单的例子，当$f(x)=\cos(\omega_1 t)+\sin(\omega_2 t)(\omega_1\ne \omega_2)$时，
 
 $$
@@ -189,6 +189,7 @@ $$
 $$
 F\left( s \right) ==\int_0^{+\infty}{\left[ e^{-t}\sin t\ e^{-\alpha t} \right] e^{-i\omega t}dt}
 $$
+
 <img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240920181547911.png" alt="image-20240920181547911" style="zoom:60%;" />
 
 我们可以绘制出$f(t)$拉普拉斯变换后的立体图像，如下图，可以看到有两个趋于$\infty$的尖峰，这其实就是我们在拉普拉斯变换中所关注的点，或者说就是scaner起作用的地方
