@@ -343,10 +343,12 @@ e.g.
      {: .prompt-tip }
      
       a. 当之后是**与**门时，两输入端同时接低电平可以先并联再连接，不影响结果，这样就造成了$m^{\prime}$最小应该取输出端的“与”门数！
+
       b. 当之后是**或**门时，$m^{\prime}$取值为输入端的总个数
+
       c. 当为高电平输出时，同样不能省略，$m^{\prime}$取值为输入端的总个数
      
-     ​     ![image-20240926222714495](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240926222714495.png)
+     ​ ![image-20240926222714495](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240926222714495.png)
 
 ### 4.5 TS Gate
 
