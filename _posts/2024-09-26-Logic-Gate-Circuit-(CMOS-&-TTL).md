@@ -346,7 +346,7 @@ e.g.
      - 当之后是**或**门时，$m^{\prime}$取值为输入端的总个数
      - 当为高电平输出时，同样不能省略，$m^{\prime}$取值为输入端的总个数
      
-     ​     ![image-20240926222714495](C:\Users\22860\AppData\Roaming\Typora\typora-user-images\image-20240926222714495.png)
+     ​     ![image-20240926222714495](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240926222714495.png)
 
 ### 4.5 TS Gate
 
