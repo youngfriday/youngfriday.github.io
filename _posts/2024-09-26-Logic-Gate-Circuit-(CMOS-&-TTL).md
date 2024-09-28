@@ -286,7 +286,10 @@ $T_2$的倒相级：
 
 <img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240926211336728.png" alt="image-20240926211336728" style="zoom:67%;" />
 
-e.g.
+> 注意这里有一个特例，就是当为与门时，只要有一个输入端是低电平，就会将电压钳制，另外的端口即使接的是大电阻也不能等效为高电平
+{: .prompt-tip }
+
+<img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240928165813381.png" alt="image-20240928165813381" style="zoom:67%;" />
 
 ![image-20240926212314658](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20240926212314658.png)
 
