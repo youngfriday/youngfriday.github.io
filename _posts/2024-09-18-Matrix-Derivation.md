@@ -15,7 +15,7 @@ math: true
 
 本学期各门课程使用到矩阵，包括《人工智能》、《现代控制理论》、《组合导航原理》等等。是有必要恶补一下我贫瘠的数学基础了。此文暂且总结记录一下关于标量对矩阵的导数求解方法，至于矩阵对矩阵的导数，先搁置一边（lazy~）。
 
-{% include embed/video.html src='{https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/test.mp4}' %}
+{% include embed/video.html src='https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/test.mp4' %}
 
 ## Mathematic Symbols
 
