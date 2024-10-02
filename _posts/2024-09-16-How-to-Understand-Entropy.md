@@ -2,7 +2,7 @@
 title: How to Understand Entropy
 author: young
 date: 2024-09-16 12:45:00 +0800
-categories: [Math, AI]
+categories: [Blogs, Maths]
 tags: [Entropy]
 math: true
 ---

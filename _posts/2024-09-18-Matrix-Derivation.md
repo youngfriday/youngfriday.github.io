@@ -2,7 +2,7 @@
 title: Matrix Derivation
 author: young
 date: 2024-09-18 12:18:00 +0800
-categories: [Math, Linear Algebra]
+categories: [Blogs, Maths]
 tags: [Derivation]
 math: true
 ---

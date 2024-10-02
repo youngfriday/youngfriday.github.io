@@ -2,7 +2,7 @@
 title: The Mystery of the Fourier and Laplace Transforms
 author: young
 date: 2024-09-20 22:42:00 +0800
-categories: [Math, Integral Transforms]
+categories: [Blogs, Maths]
 tags: [Laplace Transform]
 math: true
 ---
