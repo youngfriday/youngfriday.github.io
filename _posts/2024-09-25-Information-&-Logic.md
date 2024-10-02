@@ -2,7 +2,7 @@
 title: Information & Logic
 author: young
 date: 2024-09-25 22:30:00 +0800
-categories: [VLSI, NOTES]
+categories: [NOTES, VLSI]
 tags: [Information]
 math: true
 ---

@@ -2,7 +2,7 @@
 title: Logic Gate Circuit  (CMOS & TTL)
 author: young
 date: 2024-09-26 22:43:00 +0800
-categories: [VLSI, NOTES]
+categories: [NOTES,VLSI]
 tags: [CMOS&TTL]
 math: true
 ---
