@@ -5,6 +5,8 @@ date: 2024-10-02 10:58:00 +0800
 categories: [NOTES, IELTS]
 tags: [Task2 Essay]
 ---
+![5a1cd649648af4949b3e5a116de7ac4](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/5a1cd649648af4949b3e5a116de7ac4.jpg)
+
 
 # How to Write a Task 2 Essay in IELTS?
 
@@ -116,7 +118,6 @@ Conclusion
 
    ![image-20241001212202106](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241001212202106.png)
 
-![5a1cd649648af4949b3e5a116de7ac4](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/5a1cd649648af4949b3e5a116de7ac4.jpg)
 
    
 
