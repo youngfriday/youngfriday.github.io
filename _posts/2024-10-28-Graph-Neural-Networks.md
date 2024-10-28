@@ -33,7 +33,7 @@ the bigger the $c_b(v_i)$ is, the more importance node i is: without node i most
 >
 > In my opinion, take $W_{ij}$ as an example, maybe $d(v_i)$ or $d(v_j)$ is very big, so that the $W_{ij}=1$ may not be as important as the connecting nodes with small degrees.
 
- ### Corollary 1
+### Corollary 1
 
 ![image-20241026235025637](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241026235025637.png)
 
