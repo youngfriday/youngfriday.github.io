@@ -1,5 +1,5 @@
 ---
-title: Graph Nueral Networks
+title: Graph Neural Networks
 author: young
 date: 2024-10-28 20:18:00 +0800
 categories: [Blogs, AI]
