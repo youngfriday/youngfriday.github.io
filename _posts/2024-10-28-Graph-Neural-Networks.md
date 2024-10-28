@@ -235,7 +235,7 @@ To enforce the prior information of the smoothness of the clean signal $f_0$, we
 
 ###### 单通道输出
 
-在图片中的公式里，单通道输出的定义是：
+单通道输出的定义是：
 
 $$
 f_{\text{out}} = \sum_{d=1}^{d_{\text{in}}} U \cdot \gamma_d(\Lambda) \cdot U^T \cdot F_{:,d}
