@@ -122,7 +122,7 @@ comments:
     repo: youngfriday/youngfriday.github.io # <gh-username>/<repo>
     repo_id: R_kgDOMqXo1g 
     category: General
-    category_id: DIC_kwDOMlEaKs4ChwqJ
+    category_id: DIC_kwDOMqXo1s4CiEO7  #DIC_kwDOMlEaKs4ChwqJ
     mapping: pathname # optional, default to 'pathname'
     strict: 0 # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
