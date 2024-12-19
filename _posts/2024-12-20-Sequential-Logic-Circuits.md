@@ -1,13 +1,13 @@
 ---
 title: Sequential Logic Circuits
 author: young
-date: 2024-12-20 01:05:00 +0800
+date: 2024-12-20 01:08:00 +0800
 categories: [NOTES,VLSI]
 tags: [Logic Circuits]
 math: true
 ---
 
-<img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/6a13123e348f81830d2e53cd636e9c5.jpg" style="zoom:50%;" />
+<img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/6a13123e348f81830d2e53cd636e9c5.jpg" alt="6a13123e348f81830d2e53cd636e9c5" style="zoom: 33%;" />
 
 # 时序逻辑电路
 
