@@ -1,14 +1,3 @@
----
-title: Sequential Logic Circuits
-author: young
-date: 2024-12-20 00:38:00 +0800
-categories: [NOTES,VLSI]
-tags: [Logic Circuits]
-math: true
----
-
-<img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/6a13123e348f81830d2e53cd636e9c5.jpg" alt="6a13123e348f81830d2e53cd636e9c5" style="zoom: 33%;" />
-
 # 时序逻辑电路
 
 ## 1. 时序逻辑电路的基本概念
@@ -45,9 +34,9 @@ math: true
 
 > 其实SR就相当于JK再加一个条件--`JK=0`
 
-### 2.3 常用时序逻辑电路
+## 3. 常用时序逻辑电路
 
-#### 寄存器
+### 寄存器
 
 - 功能：可寄存一组二进制数值或者代码的电路
 - 结构：
@@ -57,7 +46,7 @@ math: true
   1. 按功能：**数码寄存器**、**移位寄存器**
   2. 按数码存取方式：**串行寄存器**、**并行寄存器**
 
-##### 数码寄存器
+#### 数码寄存器
 
 74HC175
 
@@ -88,7 +77,7 @@ module hc175(
 endmodule
 ```
 
-##### 移位寄存器
+#### 移位寄存器
 
 1. 单向移位寄存器
 
@@ -145,7 +134,7 @@ endmodule
 
    
 
-#### 计数器
+### 计数器
 
 - 功能：用以统计输入脉冲CP个数的电路
 - 分类：
@@ -165,9 +154,9 @@ endmodule
      - RS
 - 应用：计数；分频；定时；序列信号发生器……
 
-##### 同步计数器
+#### 同步计数器
 
-###### 同步二进制计数器-加法
+##### 同步二进制计数器-加法
 
 - 多位二进制数的末位加1就翻转
 - 第i位以下皆为1时，第i位翻转
@@ -199,42 +188,42 @@ endmodule
 
 <img src="https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241114000937005.png" alt="image-20241114000937005" style="zoom:20%;" />
 
-###### 同步二进制计数器-减法
+##### 同步二进制计数器-减法
 
 - 末位减1就翻转
 - 如果第i位以下皆为0，第i位翻转
 
-###### 同步二进制计数器-可逆计数器
+##### 同步二进制计数器-可逆计数器
 
 增加了一个输入端口用来控制是加法计数还是减法计数
 
-###### 同步十进制计数器-加法
+##### 同步十进制计数器-加法
 
 原理很简单，在四位二进制计数器基础上修改，当计到1001时，则下一个CLK电路状态回到0000即可。
 
 ![image-20241120223454943](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241120223454943.png)
 
-###### 同步十进制计数器-减法
+##### 同步十进制计数器-减法
 
 原理：对二进制减法计数器进行修改，在0000之后跳变为1001
 
 ![image-20241120224707741](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241120224707741.png)
 
-##### 异步计数器
+#### 异步计数器
 
-###### 异步二进制计数器
+##### 异步二进制计数器
 
 ![image-20241120231759218](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241120231759218.png)
 
 ![image-20241120231808677](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241120231808677.png)
 
-###### 异步十进制计数器
+##### 异步十进制计数器
 
 ![image-20241120233032339](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241120233032339.png)
 
 $ 1110\rightarrow 0001 \rightarrow 1001 \rightarrow 0000 $
 
-#### 任意进制计数器的构成方法
+### 任意进制计数器的构成方法
 
 从$N\rightarrow M$ 进制转换
 
@@ -270,7 +259,7 @@ $ 1110\rightarrow 0001 \rightarrow 1001 \rightarrow 0000 $
 
    
 
-#### 移位寄存器型计数器
+### 移位寄存器型计数器
 
 1. 环形计数器
 
