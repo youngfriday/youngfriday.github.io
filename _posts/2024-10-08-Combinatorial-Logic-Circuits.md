@@ -52,6 +52,7 @@ math: true
    - 输入信号规定了优先顺序，当有多个有效信号同时出现时，只对优先级最高的信号进行编码。
 
    ![image-20241007203602141](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241007203602141.png)
+   > 注：中间那个三角形下半部分全是1
 
 #### 译码器
 
@@ -127,7 +128,7 @@ math: true
 
       相当于搞了个东西专门只用来算每一位的进位（脱离了原来是在加法器中一并生成的局限性），我们叫这个玩意——“进位门”
 
-      这样就不用等待低位的进位信号了、
+      这样就不用等待低位的进位信号了
 
    3. 超前进位集成4位加法器 $74LS283$
 
@@ -167,7 +168,7 @@ math: true
 
 ![image-20241008195142475](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241008195142475.png)
 
-- 省流：很简单，要谁就接上谁，然后用一个”与“门就行。
+- 省流：很简单，要谁就接上谁，然后用一个“与”门就行。
 
 ### 5.2 数据选择器设计组合逻辑电路
 
@@ -182,6 +183,46 @@ math: true
 ![image-20241008200126275](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241008200126275.png)
 
 - 省流：想加几就在$B$ 一侧输入几就行了。
+
+### 5.4 编码器的扩展
+
+- 16线-4线优先编码器
+
+用2片74HC148 8-3优先编码器接成16线-4线优先编码器
+
+![image-20241229202758928](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229202758928.png)
+
+![image-20241229202808317](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229202808317.png)
+
+- 为了保证优先级，当第一块有输入时，第二块不能编码，所以将第一块在使能后低电平代表输入的 $Y_S'$ 接入第二块的低电平使能端 $S'$ 即可
+- 辨别第一块和第二块，主要在于最高位是不是1，只需要将第一块的 $Y_{EX}^{\prime}$ 取反作为最高位即可
+- 后面的3位只需要使用与非门连接，有一个为0（即成功编码）输出位即为1。
+
+### 5.5 译码器的扩展
+
+![image-20241229203528419](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229203528419.png)
+
+### 5.6 8选1数据选择器的扩展
+
+1. 位的扩展：2位8选1的连接方式
+
+   ![image-20241229203803181](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229203803181.png)
+
+2. 字的扩展——16选1
+
+   ![image-20241229203954883](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229203954883.png)
+
+   
+
+### 5.7 数值比较器的扩展
+
+1. 串联
+
+   ![image-20241229212636631](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229212636631.png)
+
+2. 并联
+
+   ![image-20241229212850540](https://youngfriday-1328789051.cos.ap-beijing.myqcloud.com/Typora/image-20241229212850540.png)
 
 
 
