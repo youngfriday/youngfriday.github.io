@@ -13,7 +13,7 @@ math: true
 
 Information resolves uncertainty.   --Claude Shannon
 
-$M$个选择，若有一事实可以将其缩小至$N$个选择，则此事件信息量为：
+$N$个选择，若有一事实可以将其缩小至$M$个选择，则此事件信息量为：
 $$
 \log _2\frac{N}{M} \text{bits of information}
 $$
