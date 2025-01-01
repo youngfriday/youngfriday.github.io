@@ -240,7 +240,7 @@ $ 1110\rightarrow 0001 \rightarrow 1001 \rightarrow 0000 $
 
 1. $M<N$
 
-   N进制计数器，跳过 (N-M)个状态，变成M进展计数器
+   N进制计数器，跳过 (N-M)个状态，变成M进制计数器
 
    - 置零法
 
