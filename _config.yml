@@ -16,10 +16,10 @@ timezone:
 
 title: Young Friday # the main title
 
-tagline: Along the river # it will display as the subtitle
+tagline: Simplicity is Beauty, Beauty is Truth # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Young Friday's personal blog. Trying to do better.
+  Young Friday's personal blog. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
